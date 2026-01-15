@@ -21,8 +21,8 @@ const Contact: React.FC = () => {
     setErrorMessage(null);
     emailjs
       .sendForm(
-        "service_p33iu98",
-        "template_5qkee6e",
+        "service_zcg4jf4",
+        "template_mcmmfdo",
         e.currentTarget,
         // public key is optional here if init() used, but include for clarity
         "PGgdJN0WuG2LTyhWP"
