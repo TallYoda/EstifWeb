@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
               <p>
                 <strong>Phone:</strong>
                 <br />
-                <a href="tel:+251939657365">+251 93 965 7365</a>
+                <a href="tel:+251927100924">+251 927100924</a>
               </p>
 
               <p>
