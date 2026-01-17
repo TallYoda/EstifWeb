@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
   useEffect(() => {
     // Initialize EmailJS with your public key so we get clearer behavior
     try {
-      emailjs.init("PGgdJN0WuG2LTyhWP");
+      emailjs.init("Z5PCzySFzbca8pz-3");
     } catch (e) {
       console.warn("EmailJS init warning:", e);
     }
@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
         "template_mcmmfdo",
         e.currentTarget,
         // public key is optional here if init() used, but include for clarity
-        "PGgdJN0WuG2LTyhWP"
+        "Z5PCzySFzbca8pz-3"
       )
       .then((result) => {
         console.log("EmailJS success:", result);
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
                 <strong>Email:</strong>
                 <br />
                 <a href="mailto:Estifanos618@gmail.com">
-                  mikiyasarts@gmail.com
+                Estifanos618@gmail.com
                 </a>
               </p>
 
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  @mikiyas.s_art
+                  @estifanos927
                 </a>
               </p>
             </div>
